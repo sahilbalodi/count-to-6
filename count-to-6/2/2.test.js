@@ -1,4 +1,4 @@
-let a = require('./1');
+let a = require('./2');
 test('this should print HELLO ES6 ',function () {
   expect(a('HELLO ES6')).toBe('HELLO ES6');
 });

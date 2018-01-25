@@ -8,3 +8,6 @@ test('should return' , function () {
 test('should return' , function () {
   expect(a()).toBe('123');
 });
+test('should return' , function () {
+  expect(typeof(a())).toBe('string');
+});
